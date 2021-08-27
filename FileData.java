@@ -85,21 +85,26 @@ public class FileData {
 	    		stmt.setString(2,"CartoonNetwork");
 	    		stmt.setString(3,"1990");
 	    		stmt.setString(4,"$5000");
+			int j=stmt.executeUpdate();
+			
 	    		stmt.setString(1, "jerry");
 	    		stmt.setString(2,"CartoonNetwork");
 	    		stmt.setString(3,"1989");
 	    		stmt.setString(4,"$4500");
-	   
+	                j=stmt.executeUpdate();
+			
 	    		stmt.setString(1, "chotabhim");
 	    		stmt.setString(2,"bollywood");
 	    		stmt.setString(3,"2000");
 	    		stmt.setString(4,"$6000");
+			j=stmt.executeUpdate();
+			
 	    		stmt.setString(1, "popye");
 	    		stmt.setString(2,"Disney");
 	    		stmt.setString(3,"1995");
 	    		stmt.setString(4,"$3000");
 
-	    		int j=stmt.executeUpdate();  
+	    		 j=stmt.executeUpdate();  
 	    		System.out.println(j+" records inserted");  
 	    		System.out.println("\n");
 	    		
