@@ -1,3 +1,19 @@
+/*One file i.e data.txt
+data in that file is: tom,cartoonNetwork, 1990,$5000
+jerry, CartoonNetwork,1989,$4500
+popye,Disney,1995,$3000
+chotabhim,bollywood,2000,$6000
+
+Read this data->sop
+make object of data(name,address,bornyear,salary) assign value using string token
+
+create setter getter
+
+save it on arraylist data object
+
+connect database 'dbCartoonDetails'
+insert the data of data.txt file in to dbCartoonDetails*/
+
 import java.io.*;
 import java.sql.*;
 import java.util.*;
